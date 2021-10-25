@@ -1,0 +1,12 @@
+:root {
+    --red-hue: 360;
+    --blue-hue: 240;
+    --green-hue: 120;
+    --main-hue: var(--red-hue);
+    --demo-logo: url('');
+    --generic-font-url:  '';
+    --generic-font-name: '';
+    --button-border-radius: 5px;
+    --primary-button-color: '';
+    --secondary-button-color: '';
+  }

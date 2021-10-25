@@ -1,0 +1,13 @@
+{
+    "--red-hue": 360,
+    "--blue-hue": 240,
+    "--green-hue": 120,
+    "--main-hue": 360,
+    "--demo-logo": "https://client-1.local/customshowbranding/images/demo-icon.jpg",
+    "--generic-font-url": "https://client-1.local/customshowbranding/fonts/opensans-bold.woff",
+    "--generic-font-name": "OpenSans",
+    "--button-border-radius": "25%",    
+    "--primary-button-color": "#007bff",
+    "--primary-button-text-color": "#fff",
+    "--secondary-button-color": "#dc3545"
+}

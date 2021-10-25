@@ -1,0 +1,57 @@
+@import url("./variables.css");
+
+* {
+    margin: 0;
+  }
+  html{
+    height: 100%;
+  }
+  body{
+    height: 100%;
+    font-family: var(--generic-font-name, sans-serif);
+    display: flex;
+    flex-direction: column;
+  }
+  nav{
+    background: hsl(var(--main-hue) , 50%, 50%);
+    padding: 10px;
+    color: var(--black-color);
+  }
+  .container{
+    flex: 1;
+    background:hsl(var(--main-hue), 50%, 95%);
+    padding: 1rem;
+  }
+  .parent {
+    border: 1px solid hsl(var(--main-hue), 50%, 95%);
+    border-radius: 5px;
+    box-shadow: 0 0 8px #888888;
+    background: hsl(var(--main-hue), 100%, 90%);
+    text-align: center;
+  }
+  p.content{
+    padding: 0.7rem;
+    font-size: 0.7rem;
+    color: hsl(var(--main-hue), 50%, 50%);
+    text-align: left;
+  }
+  .container h2.title{
+    padding: 1rem;
+    color: hsl(var(--main-hue), 50%, 20%);
+  }
+  footer{
+    background: hsl(var(--main-hue), 93%, 88%);
+    padding: 1rem;
+  }
+  input[type=button] {
+    color:var(--primary-button-text-color);
+    padding: 0.3rem;
+    font-size: 1rem;
+    border-radius: var(--button-border-radius);
+    background: hsl(var(--main-hue) , 40%, 40%);
+  }
+  .logo {
+      height: 30px;
+      width: 30px;
+      vertical-align: middle;
+  }
